@@ -244,7 +244,7 @@ input{
 
 /*############################# Responsive sidebar*/
 
-@media screen and (max-width:600px)
+@media screen and (max-width:769px)
 {
 .sidenav {
   height: 100%;
@@ -269,10 +269,7 @@ input{
   .openbtn{
     display: block;
 }
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+  
   .sidenav .closebtn {
     position: absolute;
     display: block;
@@ -304,6 +301,7 @@ input{
 {
     max-width: 100%;
     max-height: 100%;
+    font-size: 20px;
 }
 
 .chat__main {
